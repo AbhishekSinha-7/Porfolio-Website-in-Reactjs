@@ -1,12 +1,27 @@
-import React from 'react';
+import React from 'react'
 
-const About = () => {
+function About() {
   return (
-    <div className="container mx-auto">
-      <h1 className="text-4xl font-bold mb-4">About Me</h1>
-      <p>Information about yourself.</p>
-    </div>
-  );
+    <section id="about" className="bg-green-500 text-gray-900 py-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8">About Me</h2>
+        <div className="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8">
+          
+          <div className="lg:w-2/3 ">
+            <p className="mb-4">
+              Hello! I'm Abhishek Sinha, a passionate Software developer with experience in following tech stacks.
+            </p>
+            <p className="mb-4">
+              Throughout my career, I've worked on numerous projects that have honed my skills in [Your Skills]. I am particularly proud of [Highlight a Project or Achievement]. My goal is to continually grow as a professional and contribute to innovative and impactful projects.
+            </p>
+            <p>
+              When I'm not working, I enjoy [Your Hobbies or Interests]. I'm always looking for new challenges and opportunities to expand my horizons.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }
 
-export default About;
+export default About

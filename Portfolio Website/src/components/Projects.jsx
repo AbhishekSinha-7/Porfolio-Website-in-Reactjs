@@ -1,12 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const Projects = () => {
+function Projects() {
   return (
-    <div className="container mx-auto">
-      <h1 className="text-4xl font-bold mb-4">Projects</h1>
-      <p>Details of your projects.</p>
-    </div>
-  );
+    <div>Projects</div>
+  )
 }
 
-export default Projects;
+export default Projects
