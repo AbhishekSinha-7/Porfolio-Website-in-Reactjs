@@ -9,13 +9,13 @@ function About() {
           
           <div className="lg:w-2/3 ">
             <p className="mb-4">
-              Hello! I'm Abhishek Sinha, a passionate Software developer with experience in following tech stacks.
+              Hello! I'm Abhishek Sinha, a passionate Software developer with experience in following tech stacks -  HTML, CSS, JavaScript, ReactJs, Tailwind CSS.
             </p>
             <p className="mb-4">
-              Throughout my career, I've worked on numerous projects that have honed my skills in [Your Skills]. I am particularly proud of [Highlight a Project or Achievement]. My goal is to continually grow as a professional and contribute to innovative and impactful projects.
+              Throughout my career, I've worked on few projects . My goal is to continually grow as a professional and contribute to innovative and impactful projects.
             </p>
             <p>
-              When I'm not working, I enjoy [Your Hobbies or Interests]. I'm always looking for new challenges and opportunities to expand my horizons.
+             I'm always looking for new challenges and opportunities to expand my horizons.
             </p>
           </div>
         </div>
